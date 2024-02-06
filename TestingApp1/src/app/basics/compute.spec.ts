@@ -1,12 +1,12 @@
 import { compute } from "./compute";
 
 describe ('compute', () => {
-    it('should return 0 if the inut is negative', () => {
+    it('should return 0 if the inut is negative Malachy Sharkey', () => {
         const result = compute(-1);
         expect(result).toBe(0);
     })
 
-    it ("should return input+1 if the input is positive", () => {
+    it ("should return input+1 if the input is positive S00221188", () => {
         const result = compute(1);
         expect(result).toBe(2);
     })
